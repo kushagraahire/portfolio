@@ -143,8 +143,9 @@ const Portfolio = () => {
 
         {/* Buttons */}
         <div className="flex flex-col md:flex-row justify-center gap-4 mb-12">
-          <button className="cursor-pointer bg-gradient-to-r from-purple-500 to-blue-500 text-white px-8 py-3 rounded-full font-medium hover:from-purple-600 hover:to-blue-600 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center">
-            <Download className="w-5 h-5 mr-2" />
+          <button 
+          onClick={() => window.open('https://drive.google.com/file/d/11eQjSo3b9BBcDENePPl4p-Xc6AdKKsF9/view?usp=sharing')}
+          className="cursor-pointer bg-gradient-to-r from-purple-500 to-blue-500 text-white px-8 py-3 rounded-full font-medium hover:from-purple-600 hover:to-blue-600 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center">
             Download Resume
           </button>
           <button 
